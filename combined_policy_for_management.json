@@ -1,0 +1,24 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "ec2:DescribeInstances",
+        "lambda:ListFunctions",
+        "ecs:ListServices",
+        "organizations:ListAccounts",
+        "organizations:DescribeOrganization",
+        "ecs:ListClusters" ,
+        "ecr:DescribeRepositories",
+        "s3:ListAllMyBuckets",
+        "dynamodb:ListTables",
+        "ec2:DescribeImages",
+        "rds:DescribeDBInstances",
+        "rds:DescribeDBClusters"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
+

@@ -1,0 +1,25 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "cloudfront:*",
+        "ec2:*",
+        "iam:*",
+        "ecs:*",
+        "eks:*",
+        "fsx:*",
+        "kms:*",
+        "s3:*",
+        "cloudtrail:*",
+        "lambda:*",
+        "cloudwatch:*",
+        "ecr:*",
+        "elasticfilesystem:*"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
+
