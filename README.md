@@ -9,7 +9,7 @@ terraform plan
 terraform apply
 ```
 Once IAM roles are created, add thease to `~/.aws/config`.
-ARN can be gotten by terraform output
+ARN can be gotten from terraform output.
 
 ```
 [profile management]
