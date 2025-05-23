@@ -17,7 +17,7 @@ role_arn = <ARN for management IAM role>
 source_profile = default
 
 [profile member]
-role_arn = <ARN for management IAM role>
+role_arn = <ARN for member IAM role>
 source_profile = default
 ```
 
